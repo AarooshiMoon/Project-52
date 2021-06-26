@@ -1,0 +1,78 @@
+h1{
+    color : #55aaee;
+}
+
+*{
+    border:solid;
+    background-color: #f18080;
+}
+
+.grid img{
+    border: 5px solid #55aaee;
+    border-radius: 50px;
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+
+.origami{
+    border-radius: 20px;
+    background-color:#5235a3;
+    padding: 20px;
+    margin: 25px;
+    width: 650px;
+    font-family:-apple-system;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #5235a3;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color:#821edf;
+}
+
+body{
+    margin: 20px;
+    color:#fffb1f;
+}
+
+.bodyimg{
+    position: relative;
+}
+.bodyimg p{
+    font-family:-apple-system;
+    font-style: oblique;
+    font-size: 30px;
+    color: #fffb1f;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading{
+    color:#821edf;
+    text-align: center;
+    font-style:normal;
+}
+
+a:link{
+    color: #55aaee;
+}  
+a:visited{
+    color: #821edf;
+}  
+a:hover{
+    color: #fcfc0c;
+}
+.origamiImg:hover{
+    transform: scale(1.2);
+}
+

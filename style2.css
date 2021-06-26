@@ -1,0 +1,17 @@
+h1{
+    color: #f82dd6;
+    font-family: Georgia;
+    font-size: 45px;
+    font-variant: small-caps;
+    text-align: center;
+    margin:80px;
+}
+
+.Introduction{
+    font-size: 28px;
+    font-style: oblique;
+    color:#f18080;
+}
+*{
+    background-image: url(bg.jpg);
+}
